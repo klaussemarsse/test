@@ -1,6 +1,6 @@
 # \<first-el\>
 
-Just fist el
+Just fist el to try
 
 ## Install the Polymer-CLI
 

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>first-el demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-loader.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../first-el.html">
+    <link rel="import" href="../../polymer/lib/elements/dom-repeat.html">
+    <link rel="import" href="../../go-carousel/go-carousel.html">
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+
+        go-carousel{
+          height: 300px;
+        }
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic first-el demo</h3>
+      <demo-snippet>
+        <template>
+            <go-carousel  autoplay  duration=5000
+            images='["https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg", "https://cs1.livemaster.ru/storage/e6/45/00b119c13ed9f8b4dc6363a60d--materialy-dlya-tvorchestva-nabor-dlya-vyshivki-biserom-belyj-ti.jpg", "https://tse4.mm.bing.net/th?id=ORT.TH_470633631&pid=1.12&eid=G.470633631"]'></go-carousel>
+                
+           </go-carousel>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
